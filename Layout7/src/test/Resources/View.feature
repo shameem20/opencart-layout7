@@ -47,13 +47,13 @@ Feature: user wants to view on the layout page
 
     When user clicks on pages
     And user clicks on photo Gallery
-    And user clicks on TABS DEMO2(3 COLUMNS)
-    Then user can view the TABS DEMO2(3 GALLERY) page
+    And user clicks on TABS DEMO2
+    Then user can view the TABS DEMO2 page
 
     When user clicks on pages
     And user clicks on photo Gallery
-    And user clicks on TABS DEMO3(2 COLUMNS)
-    Then user can view the TABS DEMO2(3 GALLERY) page
+    And user clicks on TABS DEMO3
+    Then user can view the TABS DEMO2 page
 
     When user clicks on pages
     And user clicks on Typography

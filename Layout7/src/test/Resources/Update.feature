@@ -4,11 +4,11 @@ Feature: user is on the layout page
     When user selects the currency
     Then currency value changes on the cart
 
-    Given user wants to update the particular language
+    And  user wants to update the particular language
     When user selects the language
     Then particular language is updated
 
-    Given user wants to update the password
+    And user wants to update the password
     When user enters username
     And user enters password
     And user clicks login

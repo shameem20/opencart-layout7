@@ -2,7 +2,7 @@ Feature: user is on the layout page
   Scenario: user wants to sort item by name
     When user selects the features
     And user selects category left
-    And user selects the sort by Name(A-Z)
+    And user selects the sort by Name A-Z
     Then user can view the items sorted by name
 
   Scenario: user wants to sort item by show
