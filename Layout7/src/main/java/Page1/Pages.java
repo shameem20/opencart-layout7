@@ -1,4 +1,4 @@
 package Page1;
 
-public class Pages {
+public class pages {
 }
